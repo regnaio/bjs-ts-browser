@@ -1,0 +1,22 @@
+{
+	"name": "bjs-ts-browser",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"clean": "rm -rf ./tsc/ && rm -rf ./dist/ && mkdir ./tsc/ && mkdir ./dist/",
+		"build": "tsc && node esbuild.mjs"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@babylonjs/core": "^7.0.0"
+	},
+	"devDependencies": {
+		"@babylonjs/materials": "^7.0.0",
+		"esbuild": "^0.20.2",
+		"typescript": "^5.4.3"
+	}
+}

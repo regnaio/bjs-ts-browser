@@ -37,6 +37,8 @@ If these lines are missing, imports need to have file extensions (e.g. `.js`).
 
 ## Docker (Optional)
 
+Docker is completely optional. It's just the environment I prefer.
+
 ```shell
 docker build --target nonroot-dev -t bjs-ts-dev .
 
